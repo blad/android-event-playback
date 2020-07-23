@@ -1,0 +1,21 @@
+add device 1: /dev/input/event0
+  name:     "pmic8xxx_pwrkey"
+add device 2: /dev/input/event4
+  name:     "msm8960-snd-card Headset Jack"
+add device 3: /dev/input/event3
+  name:     "msm8960-snd-card Button Jack"
+add device 4: /dev/input/event5
+  name:     "gpio-keys"
+add device 5: /dev/input/event1
+  name:     "msp430sensorprocessor"
+could not get driver version for /dev/input/mice, Not a typewriter
+add device 6: /dev/input/event2
+  name:     "synaptics_dsx_i2c"
+[   52847.438933] /dev/input/event0: 0001 0074 00000001
+[   52847.438933] /dev/input/event0: 0000 0000 00000000
+[   52847.620896] /dev/input/event0: 0001 0074 00000000
+[   52847.620896] /dev/input/event0: 0000 0000 00000000
+[   52848.818301] /dev/input/event0: 0001 0074 00000001
+[   52848.818301] /dev/input/event0: 0000 0000 00000000
+[   52848.972490] /dev/input/event0: 0001 0074 00000000
+[   52848.972490] /dev/input/event0: 0000 0000 00000000

@@ -1,0 +1,7 @@
+#! /usr/bin/env bash
+
+INPUT=$1
+
+cat "${INPUT}" | \
+  awk --non-decimal-data \
+    -f process_event_log.awk
