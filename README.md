@@ -18,6 +18,9 @@ back via the `adb` shell.
 - Repeat Step 4 to replay the events again and again.
 - Repeat Step 1-4 for any new event log or changes to the event log that you'd like to playback.
 
+- **Note**: Each device or emulator configuation may have vastly different event log outputs for 
+  similar events. Replaying event logs on a different device or emulator configuration is not 
+  expected to work. Event playback should work on identical device or emulator configuations.
 
 ## Why this project exists:
 
