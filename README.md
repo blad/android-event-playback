@@ -7,6 +7,7 @@ back via the `adb` shell.
 ## Running the Scripts
 
 1. Collect events from the device or emulator `adb shell getevent -t > events.log`
+    - Note that `-t` flag is required. It provides the script a way to calculate delays between events. 
 2. Run the conversion script: `./runWithInput events.log`
 3. Push the event files and coordinator script to the device: `adb push out/* sdcard/android-event-playback/`
 4. Run the playback script: 
