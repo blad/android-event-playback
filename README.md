@@ -4,6 +4,8 @@ This repository contains scripts that convert event logs from
 Android's `getevent` utility into binary files that can be played
 back via the `adb` shell.
 
+![Demo Video](demo.gif)
+
 ## Running the Scripts
 
 1. Collect events from the device or emulator `adb shell getevent -t > events.log`
